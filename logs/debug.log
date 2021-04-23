@@ -1,0 +1,20 @@
+2021-04-23 16:44:41,012 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2021-04-23 17:00:18,768 - rlp.codec - DEBUG - Consider installing rusty-rlp to improve pyrlp performance with a rust based backend
+2021-04-23 17:00:19,780 - asyncio - DEBUG - Using selector: SelectSelector
+2021-04-23 17:02:40,151 - rlp.codec - DEBUG - Consider installing rusty-rlp to improve pyrlp performance with a rust based backend
+2021-04-23 17:02:41,223 - asyncio - DEBUG - Using selector: SelectSelector
+2021-04-23 17:02:51,834 - rlp.codec - DEBUG - Consider installing rusty-rlp to improve pyrlp performance with a rust based backend
+2021-04-23 17:02:52,900 - asyncio - DEBUG - Using selector: SelectSelector
+2021-04-23 17:03:03,911 - rlp.codec - DEBUG - Consider installing rusty-rlp to improve pyrlp performance with a rust based backend
+2021-04-23 17:03:07,385 - rlp.codec - DEBUG - Consider installing rusty-rlp to improve pyrlp performance with a rust based backend
+2021-04-23 17:03:08,590 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2021-04-23 17:03:11,548 - django.request - WARNING - Not Found: /favicon.ico
+2021-04-23 17:03:29,725 - asyncio - DEBUG - Using selector: SelectSelector
+2021-04-23 17:03:29,918 - asyncio - DEBUG - Using selector: SelectSelector
+2021-04-23 17:03:47,457 - rlp.codec - DEBUG - Consider installing rusty-rlp to improve pyrlp performance with a rust based backend
+2021-04-23 17:03:48,445 - asyncio - DEBUG - Using selector: SelectSelector
+2021-04-23 17:04:33,878 - rlp.codec - DEBUG - Consider installing rusty-rlp to improve pyrlp performance with a rust based backend
+2021-04-23 17:04:37,320 - rlp.codec - DEBUG - Consider installing rusty-rlp to improve pyrlp performance with a rust based backend
+2021-04-23 17:04:38,541 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2021-04-23 17:05:24,806 - asyncio - DEBUG - Using selector: SelectSelector
+2021-04-23 17:05:24,991 - asyncio - DEBUG - Using selector: SelectSelector

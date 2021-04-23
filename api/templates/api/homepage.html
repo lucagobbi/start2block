@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block head_title %}{{ block.super }} | Home{% endblock head_title %}
+
+{% block content %}
+
+{% for message in messages %}
+    {% if message.tags == 'warning' %}
+    <div class="alert alert-warning" role="alert">
+        {{ message }}
+    </div>
+    {% endif %}
+{% endfor %}
+
+{% for post in posts_list %}
+<div class="card my-3 bg-light">
+    <div class="card-header">
+        <p><a href="{% url 'user_profile' id=post.user.id %}"><span class="badge bg-success text-light">@{{ post.user }}</span></a></p>
+        <p class="text-muted my-0">{{ post.datetime }}</p>
+    </div>
+    <div class="card-body">
+        <p class="card-text">{{ post.content }}</p>
+    </div>
+</div>
+{% endfor %}
+
+<a href="{% url 'new_post' %}"><button class="btn btn-success text-white">Create a new post!</button></a>
+
+{% endblock content %}

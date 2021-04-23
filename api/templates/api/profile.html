@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head_title %}{{ block.super }} | Your Profile{% endblock head_title %}
+
+{% block content %}
+
+<div class="card bg-light my-3">
+    <div class="card-body">
+        <h5><span class="badge bg-success text-light my-2">@{{ user.username }}</span></h5>
+        <p class="text-muted">Number of posts: {{ user.posts.count }}</p>
+        <p class="text-muted">Joined: {{ user.date_joined|date:"M d Y" }}</p>
+    </div>
+</div>
+
+{% endblock content %}

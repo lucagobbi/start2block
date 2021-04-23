@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+    {% block head_title %}{{ block.super }} | Login{% endblock head_title %}
+
+{% block content %}
+
+	<div class="container h-100">
+		<div class="d-flex justify-content-center h-100">
+			<div class="user_card">
+				<div class="d-flex justify-content-center">
+					<h3 class="my-3">Login</h3>
+				</div>
+				<div class="d-flex justify-content-center form_container">
+					<form method="POST" action="">
+						{% csrf_token %}
+						<div class="input-group mb-3">
+							<input type="text" name="username" placeholder="Username..." class="form-control">
+						</div>
+						<div class="input-group mb-2">
+								<input type="password" name="password" placeholder="Password..." class="form-control" >
+						</div>
+
+							<div class="d-flex justify-content-center m3-3 login_container">
+				 				<input class="btn btn-success mt-3" type="submit" value="Login">
+				   			</div>
+					</form>
+
+				</div>
+
+				{% for message in messages %}
+					<div class="alert alert-warning my-3" role="alert">
+  						<p class="my-3" id="messages">{{ message }}</p>
+					</div>
+				{% endfor %}
+
+				<div class="mt-4">
+					<div class="d-flex justify-content-center links">
+						Don't have an account? <a href="{% url 'registration_view' %}" class="text-success ml-2">Sign Up</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock content %}

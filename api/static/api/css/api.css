@@ -1,0 +1,16 @@
+#socialDex {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#search-button:hover {
+  background-color: #355B4B;
+}
+
+.badge: {
+    background-color: #355B4B;
+}
